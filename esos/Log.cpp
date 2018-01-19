@@ -1,4 +1,4 @@
-#include "log.h"
+#include "Log.h"
 
 LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_COLS, LCD_ROWS);
 // saving log file

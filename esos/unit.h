@@ -3,7 +3,7 @@
 
 //includes
 #include "Settings.h"
-#include "log.h"
+#include "Log.h"
 #include "Clocks.h"
 #include "Service.h"
 

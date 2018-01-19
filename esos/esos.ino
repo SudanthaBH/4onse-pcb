@@ -8,7 +8,7 @@
 #include <SD.h>
 #include <Seeed_BME280.h>
 #include <Wire.h>
-#include "log.h"
+#include "Log.h"
 #include "Clocks.h"
 #include "Service.h"
 //#include "unit.h"
