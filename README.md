@@ -1,8 +1,8 @@
-# ISTSOS Open source Weather station
+# istSOS Open source Weather station
 
-ISTSOS is a Free and Open Source Sensor Observation Service Data Management System.istSOS allows for 
+istSOS is a Free and Open Source Sensor Observation Service Data Management System. istSOS allows for 
 managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.
-Istsos has oppotunity to connect datacollectors wia REST API. This Source explains the data collector internal structure.
+istSOS has oppotunity to connect datacollectors wia REST API. This Source explains the data collector internal structure.
 
  [More About ISTSOS](http://istsos.org/en/latest/doc/index.html)
  
@@ -53,11 +53,11 @@ This Is a Weather station Internal code. this is requested to buy the hardware i
   #define USERNAME ""
   #define PASSWORD ""
  ```
-### Change ISTSOS Server Settings
+### Change istSOS Server Settings
 
 1. Open Settings.h file 
 2. Chanage POSTREQ for POST Request URL. (** Read [istSOS Document](http://istsos.org/en/latest/doc/) clearly Before Change this     parameter)
-3. Change PROCEDURE as your ISTSOS procedure ID
+3. Change PROCEDURE as your istSOS procedure ID
 
 ```
    #define POSTREQ "/istsos/wa/istsos/services/sl/operations/fastinsert"
@@ -87,7 +87,7 @@ This Is a Weather station Internal code. this is requested to buy the hardware i
 
 ### Enable Sensor Participation
 
-This will enable facility for changing sensor participation for whether station.( 1 for enable the sensor and 0 for otherwise)
+This will enable each and every sensor connected to the whether station.( 1 for enable the sensor and 0 for otherwise)
 
 ```
 #define EXT_TEMP_ENABLE 1
